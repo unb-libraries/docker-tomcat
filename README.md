@@ -6,11 +6,11 @@ mounting a WAR into the webapps dir directly.
 ```
 docker run --rm \
     --name tomcat7 \
-    unblibraries/tomcat:7
+    unblibraries/tomcat:7.x
 ```
 
 ## License
 - Tomcat Docker is licensed under the MIT License:
   - http://opensource.org/licenses/mit-license.html
 - Attribution is not required, but much appreciated:
-  - `Tomcat Docker by Unb Libraries`
+  - `Tomcat Docker by UNB Libraries`
