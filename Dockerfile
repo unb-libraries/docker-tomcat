@@ -62,7 +62,7 @@ RUN chmod -v +x /etc/service/*/run
 
 # Add running user
 RUN useradd -u 918 -U -s /bin/false ${TOMCAT_USER} && \
-  usermod -G users ${TOMCAT_USER}
+  usermod -G users ${TOMCAT_USER} && \
   chown -R ${TOMCAT_USER}:users ${APP_INSTALL_ROOT}
 
 # Clean up.
